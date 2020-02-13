@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Master [DONT TOUCH]/Prefabs/PlayerAndControllerPrefabs.meta
+guid: 70be018ce51ea6046a3795454d59d2e0
+========
+guid: 61dcf3fe2ca81f6419a4ff87194b61fe
+>>>>>>>> Arthur:Assets/Collaborators Folder/Mourad/Prefabs.meta
+=======
+<<<<<<< HEAD
+guid: 7ef0b6ed8f7ed5e42b63e38b6edb4b1a
+=======
+<<<<<<< HEAD:Assets/Master [DONT TOUCH]/Prefabs.meta
+guid: d8fc2870e121eec4cb322ebe54a07542
+=======
+guid: 70be018ce51ea6046a3795454d59d2e0
+>>>>>>> [ARCHITECTURE AND CORRECTIONS]:Assets/Master [DONT TOUCH]/Prefabs/PlayerAndControllerPrefabs.meta
+>>>>>>> parent of 93ff683... rebase
+>>>>>>> Arthur
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

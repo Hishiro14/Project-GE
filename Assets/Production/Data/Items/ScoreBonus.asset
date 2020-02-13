@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c236ee33814d94928d586ca114649f, type: 3}
+  m_Name: ScoreBonus
+  m_EditorClassIdentifier: 
+  Description: Give some score points
+  ItemIcon: {fileID: 0}
+  ActivateBoolBonus: []
+  ActivateFloatBonus:
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9c2066c60fca33745be30a6f7cc50043, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 5c7de55ec18a7be40a01446410f70c65, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 1c89bf10dabe58e4fbe47775786cd1f5, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 739349e176648df48bae97ab5a40e9dc, type: 2}
+  FloatBonus: 100

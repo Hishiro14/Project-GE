@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_CrystalMetal Graph
+  m_Shader: {fileID: -6465566751694194690, guid: 5c8d7d94188395d4794f6696fb6f8a99,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_5006659F:
+        m_Texture: {fileID: 2800000, guid: 5577bcd88612a6f46a1c88312f4fe60f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_95622D0E:
+        m_Texture: {fileID: 2800000, guid: 3d6aae1138d91294b9d73aad5a625dca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F663A60B:
+        m_Texture: {fileID: 2800000, guid: 61f5ac8db72bc7f41a0f812f2bdf7092, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dff4ac4e3a86cc849896ead97a5b6492, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_14630883: 1
+    - Vector1_2E4A573D: 4
+    - Vector1_D4F6DF91: 6
+    - Vector1_F7F7CDF5: 175.3
+    m_Colors: []

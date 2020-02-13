@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5675247934095793371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3475420937369386311}
+  - component: {fileID: 2118363526264521259}
+  - component: {fileID: 6393196867672133311}
+  m_Layer: 0
+  m_Name: Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3475420937369386311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5675247934095793371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2118363526264521259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5675247934095793371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfabef4dc5344eab8585db47ac0f0fc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RandomizedEvents:
+  - OnLaunchEvent: {fileID: 11400000, guid: cd3bd73f9758e1243ac93cd1cca4de5a, type: 2}
+    OnFinishedEvent: {fileID: 11400000, guid: 8dfd25a5c9d1e2247925e13202bef4bc, type: 2}
+  OnStartGame:
+    OnLaunchEvent: {fileID: 11400000, guid: 2e9222f469eb9ce4ba6f5b16242974a2, type: 2}
+    OnFinishedEvent: {fileID: 11400000, guid: 1152d319e9e18e34ab078a87d1ef920c, type: 2}
+  OnEndGame:
+    OnLaunchEvent: {fileID: 11400000, guid: 55d3eda2e80e54f4ebe81ff54d23088d, type: 2}
+    OnFinishedEvent: {fileID: 11400000, guid: 3fce4aaf1bb7ce947aa11272db514bc0, type: 2}
+  HasGameStarted:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: bbfbf85847b970549a94e4d6d3513dba, type: 2}
+  CurrentTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 56364946be5fd804b86ba15fc8811756, type: 2}
+  CooldownBeforeStart: 10
+  CooldownBeforeEnd: 10
+  ProbabilityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.0003545189
+      outSlope: 0.0003545189
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.06631725
+    - serializedVersion: 3
+      time: 180
+      value: 0
+      inSlope: -0.011948066
+      outSlope: -0.011948066
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.052465905
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RandFrequency: 0.5
+  MinDuration: 5
+  MaxDuration: 10
+--- !u!114 &6393196867672133311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5675247934095793371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 536bf8df6fc3419aa64037f56f4c18a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameEvent: {fileID: 11400000, guid: 1461ce4465169244483a7b00de104727, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118363526264521259}
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

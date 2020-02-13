@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5537632716635861097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3886062435705194136}
+  - component: {fileID: 1261876354577507251}
+  - component: {fileID: 4337184844124884782}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3886062435705194136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537632716635861097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261876354577507251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537632716635861097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2325b2349cc8c8489a3da5f117843b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayersReference:
+  - UseConstant: 0
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 11400000, guid: 30cb74e9820f233408736b98b27e00dd, type: 2}
+  - UseConstant: 0
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 11400000, guid: 182c5f21bdb95c2478984a61e236196d, type: 2}
+  - UseConstant: 0
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 11400000, guid: 90031fc01a14f1b4d86b959413ee1685, type: 2}
+  - UseConstant: 0
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 11400000, guid: e98b713af69ff86499bcc89c8a7d3fd8, type: 2}
+  PlayersEntities: []
+  ActivePlayers:
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: b3210c2ad186ef34398c182bcbef76b6, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 2e450b80771d6ef4fae2cb7584c0931f, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: a96f00cac362e214bb76d38633d72a68, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: c1eb5727c8fa3874f9562e8c8b4d11ec, type: 2}
+  SpawnActive:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 50085b520fe5dc645a8d0179eafdcdd4, type: 2}
+  MovementSpeed:
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 0169b7be152a62247bc99ea20829bbab, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 6b62f1aa88be8ba47bd89af18374c1f3, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: d9c51d13c8a2b5745bf9939706f7bfc5, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 175b42fd0d3149141aeaf87fd8494d23, type: 2}
+  Names: []
+  MovementSpeedBaseValue:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: a93a0aecde82ee343a3a064bdfb988b3, type: 2}
+  ControllerDirection:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: f647ead2f482fb342b58b5e5887debeb, type: 2}
+  IsLevelScrolling:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 7e5c9e4424280bf4c803ede1e88f632e, type: 2}
+  DisplayScore: {fileID: 11400000, guid: fea4cc4ec4ae27841a7b823e1dec309e, type: 2}
+  ScoreReference:
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9c2066c60fca33745be30a6f7cc50043, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 5c7de55ec18a7be40a01446410f70c65, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 1c89bf10dabe58e4fbe47775786cd1f5, type: 2}
+  - UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 739349e176648df48bae97ab5a40e9dc, type: 2}
+  _scoreData: {fileID: 11400000, guid: 2d74c8787aa063b49bc36a30b48f2f5e, type: 2}
+  CurrentTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 56364946be5fd804b86ba15fc8811756, type: 2}
+  Endtime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 2aadd9651b5705d478ecddbe43a02933, type: 2}
+  HasGameStarted:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: bbfbf85847b970549a94e4d6d3513dba, type: 2}
+  StartingTime: 181
+  OnLoadScene: {fileID: 11400000, guid: 48abf74f863cbfb4f98c5ccb5649a0f6, type: 2}
+  OnUnloadScene: {fileID: 11400000, guid: 406d2d59a7a1bd84ba206a5bfad5c112, type: 2}
+  MenuScene: Menu
+  GameScene: Game
+--- !u!114 &4337184844124884782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537632716635861097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 536bf8df6fc3419aa64037f56f4c18a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameEvent: {fileID: 11400000, guid: 1461ce4465169244483a7b00de104727, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1261876354577507251}
+        m_MethodName: InitializeEntitiesList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

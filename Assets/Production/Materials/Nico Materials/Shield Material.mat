@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shield Material
+  m_Shader: {fileID: -6465566751694194690, guid: a7cecb50050a2714fb41d3683f81524b,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_E74A33D5: 0.6513158
+    - _Fill: 1
+    m_Colors:
+    - Color_73818307: {r: 0, g: 0.050644, b: 0.8060851, a: 0}
+    - Color_C70437D7: {r: 0, g: 1, b: 1, a: 0}
+    - Color_D70EB7CE: {r: 0, g: 18.345547, b: 21.361254, a: 0}
+    - Vector2_F0FE6248: {r: 0.125, g: 0.125, b: 0, a: 0}
+    - Vector2_F5839181: {r: 0.75, g: 0.75, b: 0, a: 0}
+    - _Color1: {r: 0, g: 1, b: 1, a: 0}
+    - _Color2: {r: 0, g: 0.050644, b: 0.8060851, a: 0}
+    - _OuterColor: {r: 31.999996, g: 7.3752823, b: 0, a: 0}

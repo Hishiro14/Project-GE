@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8100669411944396531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6768594226591163710}
+  - component: {fileID: 2559383072037153479}
+  - component: {fileID: -1139339010777916769}
+  m_Layer: 0
+  m_Name: PatternSpawnOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6768594226591163710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100669411944396531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2559383072037153479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100669411944396531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5df589b25d048f499187a119144caa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentTimeReference:
+    UseConstant: 0
+    ConstantValue: 200
+    Variable: {fileID: 11400000, guid: b891c568fa51d3c499740ddacf0c53eb, type: 2}
+  EndTimeReference:
+    UseConstant: 0
+    ConstantValue: 180
+    Variable: {fileID: 11400000, guid: 2aadd9651b5705d478ecddbe43a02933, type: 2}
+  DifficultyIndiceMax: 4
+  DifficultyIndiceMin: 1
+  DiffcultIndiceMultiplicator: 1
+  DifficultyIndice: 0
+  PlatformPrefabs:
+  - {fileID: 6930691156639378056, guid: 118c92e36f325e942b0aeff34381d894, type: 3}
+  - {fileID: 8601394250474481044, guid: b1cc0a010607aa049817241515916a83, type: 3}
+  - {fileID: 8601394250474481044, guid: 29962b0158067a24b889bfb4e085844f, type: 3}
+  - {fileID: 829626895605407499, guid: 3ac2bc27a32d6034d95f1fea96f1209c, type: 3}
+  - {fileID: 8601394250474481044, guid: bc677b1602637084d8c0d0bd15e89bc1, type: 3}
+  - {fileID: 8601394250474481044, guid: 72ff23ed51a1afa4dbcd4444c6fd7d02, type: 3}
+  - {fileID: 7759904624339635470, guid: 08963f114e96272429466c0e9b6f9f38, type: 3}
+  PlatformDifficulty: 01000000030000000300000002000000020000000200000003000000
+  PlatformThatCanSpawn: []
+  PlatformBirthPlace: []
+--- !u!61 &-1139339010777916769
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100669411944396531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 6.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

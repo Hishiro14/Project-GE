@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="107d0b11-5cf7-4c57-acbb-4daf51edfb26" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/ScoreComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/BoolReference/BoolVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/InputEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/IntReference/IntVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/IntReference/IntReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Unity-XboxCtrlrInput-master/Unity-XboxCtrlrInput-master/XboxCtrlrInput/Assets/Plugins/XboxCtrlrInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/BoolReference/BoolReference.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> d1d24ff5e9c5c21ff51dce96f3f39f928adf3212
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/HealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/ScoreComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/MovementComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOEvents/BaseGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> d1d24ff5e9c5c21ff51dce96f3f39f928adf3212
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/Reference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOEvents/BaseGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collaborators Folder/Dylan/Scripts/PlateformePik.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collaborators Folder/Dylan/Scripts/CrakeblePlateform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/InputEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collaborators Folder/Dylan/Scripts/ExplosivePlaform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/UIEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/BoolReference/BoolVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/BoolReference/BoolReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/PlayerEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/IntReference/IntVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/IntReference/IntReference.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOEvents/BaseGameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/HealthComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/PlayerEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/BoolReference/BoolVariable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Decouplage/SOReferences/BoolReference/BoolReference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/UIEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/ScoreComponent.cs" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Assets/Collaborators Folder/Dylan/Scripts/CrakeblePlateform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collaborators Folder/Dylan/Scripts/PlateformePik.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collaborators Folder/Dylan/Scripts/ExplosivePlaform.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Entities/InputEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/MovementComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Master [DONT TOUCH]/Architecture/Components/PlayerController.cs" />
+>>>>>>> d1d24ff5e9c5c21ff51dce96f3f39f928adf3212
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XKtgs75WSBXeMLrw9kKb4gU2x5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="107d0b11-5cf7-4c57-acbb-4daf51edfb26" name="Default Changelist" comment="" />
+      <created>1580751528665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580751528665</updated>
+      <workItem from="1580751532273" duration="1401000" />
+<<<<<<< HEAD
+      <workItem from="1580806732947" duration="5755000" />
+      <workItem from="1580827343193" duration="2699000" />
+      <workItem from="1580891987523" duration="1140000" />
+      <workItem from="1580894361755" duration="3608000" />
+      <workItem from="1580978008870" duration="3529000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1580806732947" duration="11257000" />
+      <workItem from="1580891530341" duration="2880000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1580806732947" duration="10357000" />
+=======
+      <workItem from="1580806732947" duration="11257000" />
+      <workItem from="1580891530341" duration="2849000" />
+>>>>>>> parent of aed1402... Added
+>>>>>>> master
+>>>>>>> d1d24ff5e9c5c21ff51dce96f3f39f928adf3212
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580814018103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580814018103" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
