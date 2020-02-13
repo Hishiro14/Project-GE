@@ -27,7 +27,7 @@ namespace Production.Scripts.Platforms
             {
                 timerdestroypalyer = true;
                 ExplosionRangeCollision.SetActive(true);
-                PlaneColor.GetComponent<MeshRenderer>().material = blue;
+                //PlaneColor.GetComponent<MeshRenderer>().material = blue;
             }
 
             if (timerdestroypalyer) timerAfterDetection -= Time.deltaTime;
@@ -40,7 +40,7 @@ namespace Production.Scripts.Platforms
         private void OnCollisionEnter2D(Collision2D other)
         {
             IsActive = true;
-            PlaneColor.GetComponent<MeshRenderer>().material = black;
+            //PlaneColor.GetComponent<MeshRenderer>().material = black;
         }
     }
 }

@@ -11,6 +11,8 @@ TagManager:
   - UntilDeathBoolItem
   - DurationBoolItem
   - Couloir
+  - UntilDeathItem
+  - DurationItem
   layers:
   - Default
   - TransparentFX
@@ -47,4 +49,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 414223749
+    locked: 0
+  - name: Tree
+    uniqueID: 2590678025
+    locked: 0
+  - name: Branch
+    uniqueID: 3819136637
+    locked: 0
+  - name: Platform
+    uniqueID: 1783680005
+    locked: 0
+  - name: Actor
+    uniqueID: 2341731059
+    locked: 0
+  - name: Water
+    uniqueID: 1184116449
     locked: 0

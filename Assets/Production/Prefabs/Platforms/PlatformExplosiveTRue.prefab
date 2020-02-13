@@ -75,7 +75,7 @@ MonoBehaviour:
   timer: 2
   timerAfterDetection: 2
   ExplosionRangeCollision: {fileID: 1349044785442457634}
-  PlaneColor: {fileID: 8121577280143699511}
+  PlaneColor: {fileID: 0}
   blue: {fileID: 2100000, guid: eb0e227f9b91a664987ae094d13be2b8, type: 2}
   black: {fileID: 2100000, guid: 9aeee31fdf03482458e097b810a8ed7d, type: 2}
 --- !u!61 &58115088
@@ -119,12 +119,12 @@ PrefabInstance:
     - target: {fileID: 3379046651387018416, guid: 118c92e36f325e942b0aeff34381d894,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3379046651387018416, guid: 118c92e36f325e942b0aeff34381d894,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.858025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3379046651387018416, guid: 118c92e36f325e942b0aeff34381d894,
         type: 3}
@@ -176,6 +176,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4939606461574835047, guid: 118c92e36f325e942b0aeff34381d894,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51fe4cfe03d2c9f4ca87dae314f2cdcf, type: 2}
     - target: {fileID: 5500165611681910888, guid: 118c92e36f325e942b0aeff34381d894,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -208,12 +213,6 @@ Transform:
 --- !u!1 &2921419479257940344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5857651960810079719, guid: 118c92e36f325e942b0aeff34381d894,
-    type: 3}
-  m_PrefabInstance: {fileID: 8773145002968024223}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8121577280143699511 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 681692143143496360, guid: 118c92e36f325e942b0aeff34381d894,
     type: 3}
   m_PrefabInstance: {fileID: 8773145002968024223}
   m_PrefabAsset: {fileID: 0}

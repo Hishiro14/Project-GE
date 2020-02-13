@@ -108,26 +108,23 @@ Material:
     - Vector1_B29ABE99: 0
     - Vector1_E2436A9B: 10
     - _AlphaClip: 0
-    - _AlphaClipping: 0.854
+    - _AlphaClipping: 0.8
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Detail: 1
-    - _DetailDepth: 6.26
-    - _DetailMerge: 0.5
-    - _DetailScale: 4.36
+    - _DetailScale: 8.19
     - _DstBlend: 0
-    - _EdgeDetail: 0.576
+    - _EdgeDetail: 0.496
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NormalStrength: 1.5
+    - _NormalStrength: 2
     - _OcclusionStrength: 1
     - _Opacity: 1
-    - _OverlayBias: 1
+    - _OverlayBias: 0.8
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -136,8 +133,8 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _TextureContrast: 10
-    - _TopBlend: 0
-    - _TopHardness: 1
+    - _TopBlend: 1
+    - _TopHardness: 0.99
     - _TopSharpness: 0.5
     - _Top_Sharpness: 0.5
     - _WorkflowMode: 1

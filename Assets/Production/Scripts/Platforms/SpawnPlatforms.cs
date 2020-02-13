@@ -27,11 +27,14 @@ namespace Production.Scripts.Platforms
         public List<Transform> PlatformBirthPlace;
 
         private float _realTime => EndTimeReference.Value - CurrentTimeReference.Value;
-    
+
         private void Start() {
             for (int i = 0; i < transform.childCount; i++)
             {
-                PlatformBirthPlace.Add(this.gameObject.transform.GetChild(i));
+                if (gameObject.transform.GetChild(i).CompareTag("Couloir"))
+                {
+                    PlatformBirthPlace.Add(this.gameObject.transform.GetChild(i));
+                }
                 //List all transform childs of the pattern
             }
         

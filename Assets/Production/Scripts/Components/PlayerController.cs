@@ -176,18 +176,18 @@ namespace Production.Scripts.Components
 				// And then smoothing it out and applying it to the character
 				m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
-				// If the input is moving the player right and the player is facing left...
-				if (move > 0 && !m_FacingRight)
-				{
-					// ... flip the player.
-					Flip();
-				}
-				// Otherwise if the input is moving the player left and the player is facing right...
-				else if (move < 0 && m_FacingRight)
-				{
-					// ... flip the player.
-					Flip();
-				}
+//				// If the input is moving the player right and the player is facing left...
+//				if (move > 0 && !m_FacingRight)
+//				{
+//					// ... flip the player.
+//					Flip();
+//				}
+//				// Otherwise if the input is moving the player left and the player is facing right...
+//				else if (move < 0 && m_FacingRight)
+//				{
+//					// ... flip the player.
+//					Flip();
+//				}
 			}
 
 			if (WallJumpActiveReference.Value)
@@ -307,16 +307,16 @@ namespace Production.Scripts.Components
 			m_AirControl = true;
 			gameObject.GetComponent<ArrowComponent>().UnactiveArrow();
 		}
-		public void Flip()
-		{
-			// Switch the way the player is labelled as facing.
-			m_FacingRight = !m_FacingRight;
-
-			// Multiply the player's x local scale by -1.
-			Vector3 theScale = transform.localScale;
-			theScale.x *= -1;
-			transform.localScale = theScale;
-		}
+//		public void Flip()
+//		{
+//			// Switch the way the player is labelled as facing.
+//			m_FacingRight = !m_FacingRight;
+//
+//			// Multiply the player's x local scale by -1.
+//			Vector3 theScale = transform.localScale;
+//			theScale.x *= -1;
+//			transform.localScale = theScale;
+//		}
 
 		public void ResetBoolOnDead()
 		{

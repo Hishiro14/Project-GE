@@ -113,9 +113,6 @@ Material:
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Detail: 0
-    - _DetailDepth: 2
-    - _DetailMerge: 0.5
     - _DetailScale: 3.53
     - _DstBlend: 0
     - _EdgeDetail: 0.829
@@ -153,7 +150,7 @@ Material:
     - _ShapeOffset: {r: 0, g: 0, b: 0, a: 0}
     - _ShapeTiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TopColor: {r: 1.9766746, g: 0, b: 0.041396327, a: 0}
+    - _TopColor: {r: 5.992157, g: 0, b: 0.1254902, a: 0}
     - _TopMinMax: {r: -0.71, g: 1.26, b: 0, a: 0}
     - _TopOffset: {r: 0, g: 0, b: 0, a: 0}
     - _TopTiling: {r: 2, g: 3, b: 0, a: 0}
